@@ -1,4 +1,5 @@
 import React from "react";
+import Feed from "@components/Feed";
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
         like-minded creators. Elevate your creativity today with PromptHub.
       </p>
       {/* Feeds */}
+      <Feed />
     </section>
   );
 };
